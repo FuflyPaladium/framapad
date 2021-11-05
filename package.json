@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "commons": "rm -rf node_modules/vuefs-commons && npm i",
-    "dev": "rm -rf ./public && webpack-dev-server --mode development --host 0.0.0.0 --hot --open --useLocalIp",
+    "dev": "rm -rf ./public && webpack-dev-server --mode development --hot --open",
     "preview": "rm -rf ./public && cross-env NODE_ENV=preview webpack --progress --hide-modules --mode production",
     "prod": "rm -rf ./public && cross-env NODE_ENV=production webpack --progress --hide-modules --mode production"
   },
