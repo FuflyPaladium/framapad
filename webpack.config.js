@@ -36,7 +36,6 @@ fs.readdirSync('./app/assets').forEach((file) => {
 
 const config = {
   entry: './app/index.js',
-  port: 3000,
   output: {
     path: path.resolve(__dirname, `public${root}`),
     publicPath: root,
@@ -123,6 +122,7 @@ const config = {
     hot: true,
     writeToDisk: true,
     compress: true,
+    port: 3000
   },
   devtool: 'eval-source-map',
 };
