@@ -122,6 +122,10 @@ const config = {
     hot: true,
     writeToDisk: true,
     compress: true,
+    allowedHosts: [
+      'irrplay.xyz',
+      'irrplay.xyz:3000'
+    ],
     port: 3000
   },
   devtool: 'eval-source-map',
