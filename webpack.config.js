@@ -122,6 +122,7 @@ const config = {
     hot: true,
     writeToDisk: true,
     compress: true,
+    allowedHosts: 'all',
     port: 3000
   },
   devtool: 'eval-source-map',
